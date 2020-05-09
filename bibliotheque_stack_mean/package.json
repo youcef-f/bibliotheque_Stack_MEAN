@@ -1,0 +1,26 @@
+{
+  "name": "bibliotheque_stack_mean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "dev": "concurrently -n \"TS, Node\" \"npx tsc --watch\"   \"nodemon dist/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/mongoose-paginate": "5.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5",
+    "mongoose-paginate": "5.0.3"
+  }
+}
